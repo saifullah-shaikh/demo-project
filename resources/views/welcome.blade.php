@@ -1,0 +1,5 @@
+@include('partials.head')
+@include('partials.nav')
+@include('partials.sidebar')
+@include('partials.section')
+@include('partials.footer')
