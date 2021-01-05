@@ -2,11 +2,11 @@
 @include('partials.nav')
 @include('partials.sidebar')
 @if (session('error'))
-  <div class="alert alert-danger">{{ session('error') }}</div>
+  <!-- <div class="alert alert-danger">{{ session('error') }}</div>
  @endif
 <div class="container">
 <form  class="form-horizontal" action="{{ action('EmployeeController@store')}}" method="POST" id="form_reg">
-@csrf
+@csrf -->
   
   <div class="row">
   <div class="offset-md-3 col-md-6">
